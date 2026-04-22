@@ -1,13 +1,30 @@
-# 📊 Power BI Sales & Customer Analytics Dashboard
+#  Power BI Sales & Customer Analytics
 
-## 📌 Project Overview
+ SALES OVERVIEW
+  <img width="1280" height="710" alt="Final (11)" src="https://github.com/user-attachments/assets/8c4fb765-e0d0-40d0-b116-3b0bbbb4ab3d" />
+
+ CUSTOMER ANALYSIS
+  <img width="1280" height="716" alt="Final (10)" src="https://github.com/user-attachments/assets/2d50d7f2-8a8e-454e-b75b-892203b40f37" />
+
+ PRODUCT AND REGION ANALYSIS
+  <img width="1280" height="726" alt="Final (2)" src="https://github.com/user-attachments/assets/5a28e7c2-d93b-4c99-8791-973b93322281" />
+
+  SALES DEEP DIVE
+  <img width="1280" height="726" alt="Final (2)" src="https://github.com/user-attachments/assets/c55055f5-4f47-4b12-8b15-c5cd166dcf2a" />
+
+
+
+ 
+  
+
+##  Project Overview
 
 This Power BI project provides a complete **Sales, Customer, Product, and Returns analysis dashboard**.
 It helps businesses understand performance across **regions, categories, customers, and time** using interactive visuals and KPIs.
 
 ---
 
-## 🎯 Key Objectives
+##  Key Objectives
 
 * Analyze **Total Sales, Orders, Quantity, and Customers**
 * Track **monthly and yearly sales trends**
@@ -40,7 +57,7 @@ It helps businesses understand performance across **regions, categories, custome
 
 ---
 
-### 📦 Dimension Tables
+###  Dimension Tables
 
 1. **Customer_Dim**
 
@@ -76,7 +93,7 @@ It helps businesses understand performance across **regions, categories, custome
 
 ---
 
-## 🔗 Data Model
+##  Data Model
 
 * Star Schema implemented
 * Relationships:
@@ -89,7 +106,7 @@ It helps businesses understand performance across **regions, categories, custome
 
 ---
 
-## 📊 Key Measures (DAX)
+##  Key Measures (DAX)
 
 ```DAX
 Total Sales = SUM(Sales_Fact[TotalAmount])
@@ -105,7 +122,7 @@ Avg Sales per Customer = DIVIDE([Total Sales], [Total Customers])
 
 ---
 
-## 📈 Dashboard Features
+##  Dashboard Features
 
 ### 🔹 Sales Overview
 
@@ -127,7 +144,7 @@ Avg Sales per Customer = DIVIDE([Total Sales], [Total Customers])
 ### 🔹 Regional Analysis
 
 * Sales by Region
-* Customers by Region
+* stomers by Region
 
 ### 🔹 Returns Analysis
 
@@ -138,7 +155,7 @@ Avg Sales per Customer = DIVIDE([Total Sales], [Total Customers])
   * Defective
   * Customer Changed Mind
 
-### 🔹 Advanced Visual
+###  Advanced Visual
 
 * Scatter Plot:
 
@@ -146,7 +163,7 @@ Avg Sales per Customer = DIVIDE([Total Sales], [Total Customers])
 
 ---
 
-## 🎛 Filters / Slicers
+##  Filters / Slicers
 
 * Year (2024, 2025)
 * Category
@@ -155,7 +172,7 @@ Avg Sales per Customer = DIVIDE([Total Sales], [Total Customers])
 
 ---
 
-## 🧹 Data Cleaning (Power Query)
+##  Data Cleaning (Power Query)
 
 * Removed duplicates
 * Trimmed & cleaned text
@@ -165,7 +182,7 @@ Avg Sales per Customer = DIVIDE([Total Sales], [Total Customers])
 
 ---
 
-## 🚀 Insights Generated
+##  Insights Generated
 
 * Identify top-selling products and categories
 * Understand customer behavior across segments
@@ -175,7 +192,7 @@ Avg Sales per Customer = DIVIDE([Total Sales], [Total Customers])
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 * Power BI Desktop
 * Power Query (ETL)
@@ -183,7 +200,7 @@ Avg Sales per Customer = DIVIDE([Total Sales], [Total Customers])
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This dashboard provides a **complete business overview** and helps in:
 
@@ -191,16 +208,12 @@ This dashboard provides a **complete business overview** and helps in:
 * Performance tracking
 * Identifying improvement areas
 
-     screenshots
-  (<img width="1280" height="598" alt="Final (4)" src="https://github.com/user-attachments/assets/8cca6033-e867-45d9-bcad-42e4a6ff84b3" />
-)
----
+     
 
-## 👨‍💻 Author
+##  Author
 
 **Yagna Patel**
 
 ---
 
 
-Give it a ⭐ on GitHub and feel free to fork or improve it!
