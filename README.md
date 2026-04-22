@@ -35,9 +35,9 @@ It helps businesses understand performance across **regions, categories, custome
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 
-### 🧾 Fact Tables
+###  Fact Tables
 
 1. **Sales_Fact**
 
